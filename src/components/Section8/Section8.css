@@ -1,0 +1,101 @@
+.section8-main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.section8-contentDiv {
+    flex: 5;
+    padding: 3% 5%;
+    display: flex;
+
+}
+
+.section8-contact-container {
+    background-color: white;
+
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+    flex: 1;
+    border-radius: 20px;
+}
+
+.section8-contact-input {
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 0 10%;
+    /* background-color: aqua; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+
+
+}
+
+.section8-contact-button {
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section8-contactus-form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+}
+
+.section8-socialMedia {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #2F2E41;
+
+    /* padding: 2% 5%; */
+}
+
+.section8-socialMedia-contactOptions-cont {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin: 5% 10%;
+
+}
+
+.socialMedia-option {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    /* align-items: center; */
+    flex: 1;
+    justify-content: center;
+    /* background-color: rgb(20, 22, 22); */
+}
+
+.socialMedia-option-icon {
+    cursor: pointer;
+    margin-right: 3%;
+
+}
+
+.section8-header-mainDiv {
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}

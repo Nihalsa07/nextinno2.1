@@ -1,0 +1,141 @@
+.section7-main-container {
+    height: 100vh;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    /* background-color: #3F3D56; */
+    background-image: url('../../vector.svg');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right;
+
+
+
+}
+
+.section7-logo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.section7-header-mainDiv {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* color: white; */
+
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+
+.section7-contentDiv {
+    flex: 5;
+    padding: 1% 5%;
+    /* padding-bottom: 5%; */
+    display: flex;
+    justify-content: center;
+
+    /* justify-content: space-around; */
+    align-items: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    flex: 2;
+    overflow: hidden;
+    /* max-width: 500px; */
+    width: 85%;
+    /* height: 100%; */
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+    /* padding-top: 3%; */
+
+}
+
+.slide-maincont {
+    display: flex;
+    /* align-self: center; */
+    height: 100%;
+    flex-direction: column;
+    /* padding-top: 2%; */
+}
+
+.slide {
+    display: inline-block;
+
+    /* height: 600px; */
+    width: 100%;
+    /* border-radius: 40px; */
+}
+
+.slide-head {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10% 1% 1% 1%;
+}
+
+.slide-content {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* background-color: #c4c4c4; */
+    /* word-break: break-all;
+    word-wrap: break-word; */
+    /* width: 500px; */
+    padding: 2% 25%;
+    padding-bottom: 10%;
+    /* overflow-wrap: break-word; */
+
+
+}
+
+.slide-content-para {
+    white-space: normal;
+    font-size: 1.2rem;
+    color: #757474;
+
+    /* max-width: 450px;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word; */
+}
+
+
+/* Buttons */
+
+.slideshowDots {
+    text-align: center;
+}
+
+.slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+    cursor: pointer;
+    margin: 15px 7px 0px;
+
+    background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+    background-color: #F50057;
+}

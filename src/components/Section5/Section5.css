@@ -1,0 +1,84 @@
+.section5-main-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #2F2E41; */
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+
+    /* color: white; */
+}
+
+.section5-contentDiv {
+    flex: 5;
+    /* background-image: url('../../inclinedsection.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 98%; */
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section5-feature-card {
+    display: flex;
+    width: 20%;
+    min-width: 250px;
+    flex-direction: column;
+    margin: 1% 2%;
+}
+
+.section5-feature-card-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section5-feature-card-text {
+    flex: 1;
+    /* background-color: aqua; */
+}
+
+
+.section5-header-mainDiv {
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+
+.section5-image-container {
+    flex: 1;
+}
+
+.section5-feature-container {
+    flex: 1;
+    display: flex;
+    padding: 2% 1%;
+    flex-direction: row;
+}
+
+.feature-card {
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+
+}
+
+.feature-image-container {
+    flex: 1;
+    /* padding: 2%; */
+}
+
+.feature-text-container {
+    flex: 1;
+}

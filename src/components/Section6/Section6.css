@@ -1,0 +1,50 @@
+.section6-main-container {
+    height: 70vh;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    /* background-image: url('../../background1.svg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right; */
+    /* background-color: #3F3D56; */
+
+
+}
+
+.section6-header-mainDiv {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* color: white; */
+
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.section6-contentDiv {
+    flex: 5;
+    padding: 1% 5%;
+    /* padding-bottom: 5%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+.client-card {
+    display: flex;
+    width: 15%;
+    height: 35%;
+    min-width: 250px;
+    /* background-color: #ffff; */
+    /* background-color: #3F3D56; */
+
+    border-radius: 25px;
+    flex-direction: column;
+    margin: 1% 2%;
+}

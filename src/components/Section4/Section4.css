@@ -1,0 +1,102 @@
+.section4-container {
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+
+    /* background-size: cover; */
+    /* background-color: #F50057; */
+    /* color: white; */
+    /* border-bottom-right-radius: 10%; */
+    /* border-bottom-left-radius: 10%; */
+}
+
+.section4-header-mainDiv {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+
+.section4-products-mainDiv {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    /* flex-wrap: wrap; */
+    padding: 0 6%;
+    /* background-color: brown; */
+}
+
+.products-card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    border-radius: 20px;
+    /* flex: 1; */
+    width: 30%;
+    min-width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    background-color: #fffdfd;
+    transition: transform 0.3s;
+    min-width: 350px;
+
+
+    /* background-color: chartreuse; */
+}
+
+.product-contact {
+    cursor: pointer;
+    width: 155px;
+    padding: 10px;
+    display: flex;
+    /* justify-self: flex-end; */
+    /* margin: auto 0; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #F50057;
+    border-radius: 10px;
+    color: white;
+}
+
+.products-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* background-color: #F50057; */
+    /* color: white !important; */
+    transform: scale(1.08);
+}
+
+ul>li {
+    margin: 1%;
+    color: #757474;
+}
+
+.products-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex: 1;
+    /* background-color: #3F3D56; */
+}
+
+.products-footer {
+    flex: 1;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* color: black; */
+    padding: 4% 0;
+    justify-content: flex-start;
+    align-items: center;
+}
