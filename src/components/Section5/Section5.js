@@ -34,7 +34,7 @@ function Section5() {
                     </div>
                     <div className='section5-feature-card-text'>
                         <h2 style={{ textAlign: 'center' }}>Responsive Design</h2>
-                        <p style={{ textAlign: 'center', paddingTop: '5px', color: '#757474' }}>We provide responsive website which results identical user experience across devices.Your website, no matter where it is</p>
+                        <p style={{ textAlign: 'center', paddingTop: '5px', color: '#757474' }}>We provide responsive website which results identical user experience across devices.</p>
                     </div>
 
 
@@ -46,14 +46,14 @@ function Section5() {
                     </div>
                     <div className='section5-feature-card-text'>
                         <h2 style={{ textAlign: 'center' }}>Quality Service</h2>
-                        <p style={{ textAlign: 'center', paddingTop: '5px', color: '#757474' }}>We are able to provide quality service by implementing a systemized approach to our works</p>
+                        <p style={{ textAlign: 'center', paddingTop: '5px', color: '#757474' }}>We are able to provide quality service by implementing a systemized approach to <br /> our works</p>
                     </div>
 
 
                 </div>
                 <div className='section5-feature-card'>
                     <div className='section5-feature-card-image'>
-                        <img alt='logo' src={support} width='70%' />
+                        <img alt='logo' src={support} width='65%' />
 
                     </div>
                     <div className='section5-feature-card-text'>
@@ -70,7 +70,7 @@ function Section5() {
                     </div>
                     <div className='section5-feature-card-text'>
                         <h2 style={{ textAlign: 'center' }}>Predictive Analysis</h2>
-                        <p style={{ textAlign: 'center', paddingTop: '5px', color: '#757474' }}>We are able to provide predictive analysis for boosting your business</p>
+                        <p style={{ textAlign: 'center', paddingTop: '5px', color: '#757474' }}>We are able to provide predictive analysis for boosting <br />your business</p>
                     </div>
 
 

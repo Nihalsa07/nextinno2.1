@@ -1,11 +1,11 @@
 .section5-main-container {
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     /* background-color: #2F2E41; */
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;
-
+    background-color: #2F2E41;
+    color: white;
+    margin-top: 70px;
     /* color: white; */
 }
 
