@@ -48,7 +48,7 @@
     margin: 2%;
     background-color: #fffdfd;
     transition: transform 0.3s;
-    min-width: 300px;
+    /* min-width: 300px; */
 
 
     /* background-color: chartreuse; */

@@ -14,8 +14,9 @@
     background-repeat: no-repeat;
     background-size: 93% 92%;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    padding: 0 3%;
+    /* text-align: center; */
 
 }
 
