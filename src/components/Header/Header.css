@@ -29,14 +29,14 @@
     display: flex;
     justify-content: space-around;
     /* margin-left: 15%; */
-    max-width: 800px;
+    max-width: 700px;
     padding-right: 20px;
     color: #757474;
 
 }
 
 .header-navbar-option-span {
-    font-size: 1rem;
+    font-size: 0.8rem;
     cursor: pointer;
 }
 
