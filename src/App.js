@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header/Header'
 import Section1 from './components/Section1/Section1'
+import Section10 from './components/Section10/Section10'
 import Section2 from './components/Section2/Section2'
 import Section3 from './components/Section3/Section3'
 import Section4 from './components/Section4/Section4'
@@ -30,7 +31,7 @@ function App() {
         <Section7 />
       </section>
       <section id='section-8' className='sections'>
-        <Section8 />
+        <Section10 />
       </section>
       <Section9 />
 

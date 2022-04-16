@@ -27,7 +27,7 @@ function Section5() {
                     </div>
 
                 </div> */}
-                <div className='section5-feature-card'>
+                <div className='section5-feature-card reveal'>
                     <div className='section5-feature-card-image'>
                         <img alt='logo' src={webAdv} width='80%' />
 
@@ -39,7 +39,7 @@ function Section5() {
 
 
                 </div>
-                <div className='section5-feature-card'>
+                <div className='section5-feature-card reveal'>
                     <div className='section5-feature-card-image'>
                         <img alt='logo' src={qualityProduct} width='75%' />
 
@@ -51,7 +51,7 @@ function Section5() {
 
 
                 </div>
-                <div className='section5-feature-card'>
+                <div className='section5-feature-card reveal'>
                     <div className='section5-feature-card-image'>
                         <img alt='logo' src={support} width='65%' />
 
@@ -63,7 +63,7 @@ function Section5() {
 
 
                 </div>
-                <div className='section5-feature-card'>
+                <div className='section5-feature-card reveal'>
                     <div className='section5-feature-card-image'>
                         <img alt='logo' src={predictive} width='70%' />
 

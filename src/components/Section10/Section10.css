@@ -1,0 +1,66 @@
+.section10-main-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    background-color: #f0f4fb;
+}
+
+
+
+.contact-main-container {
+    display: flex;
+    /* flex: 1; */
+    margin: 10% 5%;
+    flex-direction: column;
+    width: 75%;
+    max-height: 500px;
+    min-width: 600px;
+    background-color: #2F2E41;
+    border-radius: 20px;
+}
+
+.socialMedia-options {
+    /* background-color: #F50057; */
+    padding: 2% 4%;
+    border-top: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-social-mediaSection {
+    flex: 1.5;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-email-section {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contact-button-container {
+    /* flex: .5; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    /* margin-top: 5%; */
+}
+
+.contact-button {
+    cursor: pointer;
+    padding: 20px 70px;
+    background-color: #F50057;
+    border-radius: 25px;
+}

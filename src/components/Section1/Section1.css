@@ -38,3 +38,46 @@
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    font-weight: normal;
+}
+
+.scroller-card {
+    color: white;
+}
+
+/* Scroller styling */
+.scroller {
+    height: 3.2em;
+    line-height: 3.91em;
+    position: relative;
+    overflow: hidden;
+    width: 20em;
+}
+
+.scroller>span {
+    position: absolute;
+    top: 0;
+    animation: slide 6s infinite;
+    font-weight: bold;
+
+}
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -1.2em;
+    }
+
+    50% {
+        top: -2.4em;
+    }
+
+    75% {
+        top: -3.6em;
+    }
+}

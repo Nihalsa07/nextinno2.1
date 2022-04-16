@@ -1,5 +1,5 @@
 .section3-main-container {
-    height: 70vh;
+    height: 100vh;
     display: flex;
 
 }
@@ -28,4 +28,17 @@
 
     /* background-color: purple; */
 
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.actives {
+    transform: translateY(0);
+    opacity: 1;
 }

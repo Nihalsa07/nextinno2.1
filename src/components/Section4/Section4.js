@@ -27,9 +27,7 @@ function Section4() {
                             <li>Contact Management</li>
                             <li>Reports and Dashboards</li>
                             <li>Sales Analytics</li>
-                            <li>Mobile CRM</li>
-                            <li>Sales Forecasting</li>
-                            <li>Sales Data</li>
+
                         </ul>
                         <div onClick={() => scrollToView('section-8')} className='product-contact'>Contact</div>
 
@@ -65,9 +63,7 @@ function Section4() {
                             <li>Contact Management</li>
                             <li>Reports and Dashboards</li>
                             <li>Sales Analytics</li>
-                            <li>Mobile CRM</li>
-                            <li>Sales Forecasting</li>
-                            <li>Sales Data</li>
+
                         </ul>
                         <div onClick={() => scrollToView('section-8')} className='product-contact'>Contact</div>
 
@@ -85,9 +81,7 @@ function Section4() {
                             <li>Contact Management</li>
                             <li>Reports and Dashboards</li>
                             <li>Sales Analytics</li>
-                            <li>Mobile CRM</li>
-                            <li>Sales Forecasting</li>
-                            <li>Sales Data</li>
+
                         </ul>
                         <div onClick={() => scrollToView('section-8')} className='product-contact'>Contact</div>
                     </div>

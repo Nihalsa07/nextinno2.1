@@ -9,6 +9,7 @@ import machineLearning from '../../machinelearning.svg'
 import cloud from '../../cloud.svg'
 
 function Section2() {
+
     return (
         <div className='section2-container'>
             <div className='section2-header-mainDiv'>
@@ -16,7 +17,7 @@ function Section2() {
                 <p style={{ color: '#757474', paddingTop: '5px' }}>Our Services for Clients</p>
             </div>
             <div className='section2-services-mainDiv'>
-                <div className="card">
+                <div className="service-card reveal">
                     <div className='service-image-container'>
                         <img src={webdev} alt="Avatar" style={{ objectFit: 'cover', width: '70%' }} />
 
@@ -27,7 +28,7 @@ function Section2() {
                             and your users</p> */}
                     </div>
                 </div>
-                <div className="card">
+                <div className="service-card reveal">
                     <div className='service-image-container'>
                         <img src={appDev} alt="Avatar" style={{ objectFit: 'cover', width: '25%' }} />
 
@@ -38,7 +39,7 @@ function Section2() {
                             and your users</p> */}
                     </div>
                 </div>
-                <div className="card">
+                <div className="service-card reveal">
                     <div className='service-image-container'>
                         <img src={digitalMarketing} alt="Avatar" style={{ objectFit: 'cover', width: '40%' }} />
 
@@ -49,7 +50,7 @@ function Section2() {
                             and your users</p> */}
                     </div>
                 </div>
-                <div className="card">
+                <div className="service-card reveal">
                     <div className='service-image-container'>
                         <img src={graphicDesign} alt="Avatar" style={{ objectFit: 'cover', width: '70%' }} />
 
@@ -60,7 +61,7 @@ function Section2() {
                             and your users</p> */}
                     </div>
                 </div>
-                <div className="card">
+                <div className="service-card reveal">
                     <div className='service-image-container'>
                         <img src={machineLearning} alt="Avatar" style={{ objectFit: 'cover', width: '95%' }} />
 
@@ -71,7 +72,7 @@ function Section2() {
                             and your users</p> */}
                     </div>
                 </div>
-                <div className="card">
+                <div className="service-card reveal">
                     <div className='service-image-container'>
                         <img src={cloud} alt="Avatar" style={{ objectFit: 'cover', width: '80%' }} />
 
